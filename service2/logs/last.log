@@ -1,0 +1,281 @@
+10:56:30 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:56:30 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+10:56:31 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 16756 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+10:56:31 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+10:56:32 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+10:56:32 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1
+10:56:32 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+10:56:34 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+10:56:36 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+10:56:38 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+10:56:38 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1
+10:56:38 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+10:56:40 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+10:56:42 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+10:56:44 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 13.869 seconds (process running for 15.255)
+10:56:45 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+10:56:45 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+10:56:45 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+10:56:46 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+10:56:46 [main] INFO  o.t.d.DockerMachineClientProviderStrategy - docker-machine executable was not found on PATH ([C:\ProgramData\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Git\cmd, C:\Program Files\Docker\Docker\resources\bin, C:\Users\Gazda Karol\AppData\Local\Microsoft\WindowsApps, C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.4\bin, , C:\Users\Gazda Karol\AppData\Local\Programs\Microsoft VS Code\bin, C:\msys64\ucrt64\bin])
+10:56:46 [main] ERROR o.t.d.DockerClientProviderStrategy - Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://java.testcontainers.org/on_failure.html for more details.
+13:30:25 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:30:25 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+13:30:25 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 26728 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+13:30:25 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+13:30:26 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+13:30:26 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+13:30:26 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+13:30:28 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+13:30:30 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+13:30:32 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+13:30:32 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+13:30:32 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+13:30:34 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+13:30:36 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+13:30:39 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 13.869 seconds (process running for 20.785)
+13:30:40 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+13:30:40 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+13:30:40 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+13:30:40 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+13:30:41 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+13:30:41 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+13:30:41 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+13:30:41 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+13:30:41 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+13:30:41 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 9394a8eeff478816a12035f9436a87f7d38b8844a4f8f2674867a8785309f5a1
+13:30:42 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT1.3083395S
+13:30:42 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+13:30:42 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+13:30:42 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+13:30:42 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+13:30:42 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: 83317fd9c9e2d419c71923207bba2426ee198690a9fb24d39cabb948456dc250
+13:30:43 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.8887301S
+13:30:43 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:53312/
+13:30:43 [Thread-21] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+13:30:43 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:53312/
+13:30:43 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+13:30:43 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+13:30:43 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+13:30:43 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success
+14:30:45 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:30:45 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+14:30:46 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 8228 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+14:30:46 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:30:47 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5001/
+14:30:47 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:30:57 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+14:31:09 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+14:31:21 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+14:31:23 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5001/
+14:31:23 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:31:33 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+14:31:45 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+14:31:57 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+14:31:59 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 73.858 seconds (process running for 75.103)
+14:32:00 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+14:32:00 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14:32:00 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+14:32:00 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14:32:01 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+14:32:01 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+14:32:01 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+14:32:01 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+14:32:01 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+14:32:01 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: ff7d872febdf1a7240dafce615f570a21d4acc3cecd4af92ed16c2313481752d
+14:32:02 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.8839156S
+14:32:02 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14:32:02 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+14:32:02 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+14:32:02 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+14:32:02 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: c8d6d3ecab158a1496353c30055b743fbd59a14f4e1b3d794e98e30e9b9804fb
+14:32:02 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.7608952S
+14:32:02 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:57010/
+14:32:02 [Thread-20] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:32:02 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:57010/
+14:32:03 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+14:32:03 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+14:32:03 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+14:32:03 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success
+14:46:14 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:46:14 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+14:46:15 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 28012 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+14:46:15 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:46:16 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:46:16 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5001/
+14:46:26 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+14:46:38 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+14:46:50 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+14:46:52 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5001/
+14:46:52 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:47:02 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+14:47:14 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+14:47:26 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+14:47:29 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 74.384 seconds (process running for 75.758)
+14:47:30 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+14:47:30 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14:47:30 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+14:47:30 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14:47:30 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+14:47:30 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+14:47:30 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+14:47:30 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+14:47:30 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+14:47:31 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 12bc7d598b8167886ec1d04830cb75e63ef2b2a33fca1723df40b8a801ab64a4
+14:47:31 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.9097131S
+14:47:31 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14:47:31 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+14:47:31 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+14:47:31 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+14:47:31 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: fccd6666482061475c2ab292f17d1a2ac07a089f3d6391decf2da78816d99bc1
+14:47:32 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.8300054S
+14:47:32 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:57249/
+14:47:32 [Thread-20] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+14:47:32 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:57249/
+14:47:32 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+14:47:32 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+14:47:32 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+14:47:32 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success
+15:12:03 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:12:03 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+15:12:03 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 27268 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+15:12:03 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:12:04 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:12:04 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:12:14 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:12:26 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:12:38 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:12:40 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:12:40 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:12:50 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:13:02 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:13:14 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:13:17 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 74.103 seconds (process running for 75.732)
+15:13:18 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+15:13:18 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+15:13:18 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+15:13:19 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+15:13:19 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+15:13:19 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+15:13:19 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+15:13:19 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+15:13:19 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+15:13:20 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 8ac5b58d7639a3d1eebdaf6dc916a282c7efba359b1eda55127ab66cded12fd9
+15:13:20 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.9169703S
+15:13:20 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+15:13:20 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+15:13:20 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+15:13:20 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+15:13:20 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: 18f19c2873dde3b9bb5173458b1f3848e2e343ec5aaebd00856453729715c5eb
+15:13:21 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.7261433S
+15:13:21 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:55148/
+15:13:21 [Thread-20] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:13:21 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:55148/
+15:13:21 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+15:13:21 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+15:13:21 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+15:13:21 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success
+15:18:31 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:18:31 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+15:18:31 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 17076 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+15:18:31 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:18:32 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:18:32 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:18:42 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:18:54 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:19:06 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:19:08 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:19:08 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:19:18 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:19:30 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:19:42 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:19:45 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 73.852 seconds (process running for 75.102)
+15:19:45 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+15:19:45 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+15:19:46 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+15:19:46 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+15:19:46 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+15:19:46 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+15:19:46 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+15:19:46 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+15:19:46 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+15:19:46 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 615b98d34e073cbdbfa6237a13faaed69767da554cf62447cf076f564e494655
+15:19:47 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.8627652S
+15:19:47 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+15:19:47 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+15:19:47 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+15:19:47 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+15:19:47 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: d453a04f0570ec65fa60cdf0ed0f742d7f6f3aaa987a3962db6ea7f8dfda5370
+15:19:48 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.8986887S
+15:19:48 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:55219/
+15:19:48 [Thread-20] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:19:48 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:55219/
+15:19:48 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+15:19:48 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+15:19:48 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+15:19:48 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success
+15:36:35 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [pl.service2.service2.Service2ApplicationTests]: Service2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:36:35 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration pl.service2.service2.Service2Application for test class pl.service2.service2.Service2ApplicationTests
+15:36:36 [main] INFO  p.s.s.Service2ApplicationTests - Starting Service2ApplicationTests using Java 17.0.11 with PID 28488 (started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service2)
+15:36:36 [main] INFO  p.s.s.Service2ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:36:37 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:36:37 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:36:47 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:36:59 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:37:11 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:37:13 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://172.20.1.1:5000/
+15:37:13 [Thread-3] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:37:23 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Connect timed out
+15:37:35 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Connect timed out
+15:37:47 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Connect timed out
+15:37:50 [main] INFO  p.s.s.Service2ApplicationTests - Started Service2ApplicationTests in 74.069 seconds (process running for 75.554)
+15:37:50 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+15:37:50 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+15:37:50 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+15:37:51 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+15:37:51 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+15:37:51 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+15:37:51 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+15:37:51 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+15:37:51 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+15:37:51 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: b455a7ceb22a809eac2e14f9355b6024730cafe5f96c82700e4e1ce2cb08a765
+15:37:52 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.8109285S
+15:37:52 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+15:37:52 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+15:37:52 [main] INFO  o.testcontainers.DockerClientFactory - ?? Docker server version should be at least 1.6.0
+15:37:52 [main] INFO  tc.service1wraith:1.0 - Creating container for image: service1wraith:1.0
+15:37:52 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 is starting: 330f7d03507fc0d99188db3ea5338e822e59d21fa929a7f187842cebd76936c9
+15:37:53 [main] INFO  tc.service1wraith:1.0 - Container service1wraith:1.0 started in PT0.8921711S
+15:37:53 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:55852/
+15:37:53 [Thread-20] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+15:37:53 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:55852/
+15:37:53 [main] INFO  p.service2.service2.service.Service2 - Method: newJson | Success | Size: 5
+15:37:53 [main] INFO  p.service2.service2.service.Service2 - Method: basic | Success
+15:37:53 [main] INFO  p.service2.service2.service.Service2 - Method: select | Success
+15:37:53 [main] INFO  p.service2.service2.service.Service2 - Method: calculate | Success

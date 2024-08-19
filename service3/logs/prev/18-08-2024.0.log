@@ -1,0 +1,66 @@
+22:31:57 [main] INFO  p.s.service3.Service3Application - Starting Service3Application using Java 17.0.11 with PID 24996 (C:\Users\Gazda Karol\Desktop\serwisy_java\service3\target\classes started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service3)
+22:31:57 [main] INFO  p.s.service3.Service3Application - No active profile set, falling back to 1 default profile: "default"
+22:31:58 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.2:5000/
+22:31:58 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.2:5000
+22:32:00 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.2:5000
+22:32:02 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.2:5000
+22:32:09 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+22:32:09 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+22:32:09 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+22:32:10 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+22:32:10 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+22:32:10 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+22:32:10 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+22:32:10 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+22:32:10 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+22:32:10 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 9b7fca5d7399362a6b6d1e2f68a29fb7e5942972d3521c98c25ca0bbea375e51
+22:32:11 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT1.1754411S
+22:32:11 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+22:32:11 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+22:32:11 [main] INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+22:32:11 [main] INFO  tc.service2wraith:1.2 - Creating container for image: service2wraith:1.2
+22:32:11 [main] INFO  tc.service2wraith:1.2 - Container service2wraith:1.2 is starting: 22fee1771fb830c230439d2b31558488ea2bd63518b82498a5b2da66dcc32645
+22:32:12 [main] INFO  tc.service2wraith:1.2 - Container service2wraith:1.2 started in PT1.003374S
+22:32:12 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:62905/
+22:32:12 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:62905/
+22:32:12 [main] INFO  p.service3.service3.service.Service3 - Method: newJson | Success | Size: 1001
+22:32:12 [main] INFO  p.service3.service3.service.Service3 - Report 1k enabled
+22:32:12 [main] INFO  p.service3.service3.service.Service3 - Method: collectReports | Service1 report successfully received
+22:32:12 [main] INFO  p.service3.service3.service.Service3 - Method: collectReports | Service1 report successfully receivedService2 report successfully received
+22:32:13 [main] INFO  p.service3.service3.service.Service3 - Method: select | Success
+22:32:13 [main] INFO  p.service3.service3.service.Service3 - Method: math | Success
+22:32:13 [main] INFO  p.service3.service3.service.Service3 - Method: basic | Success
+22:34:18 [main] INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+22:34:18 [main] INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+22:34:18 [main] INFO  o.testcontainers.DockerClientFactory - Testcontainers version: 1.20.1
+22:34:18 [main] INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+22:34:19 [main] INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+22:34:19 [main] INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+22:34:19 [main] INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 26.1.4
+  API Version: 1.45
+  Operating System: Docker Desktop
+  Total Memory: 7792 MB
+22:34:19 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Creating container for image: testcontainers/ryuk:0.8.1
+22:34:19 [main] INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+22:34:19 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 is starting: 0c9a6f689295ecc3e4a5482a8030df792ce31760304825979f4600ac46d0c8bb
+22:34:19 [main] INFO  tc.testcontainers/ryuk:0.8.1 - Container testcontainers/ryuk:0.8.1 started in PT0.7967417S
+22:34:19 [main] INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+22:34:19 [main] INFO  o.testcontainers.DockerClientFactory - Checking the system...
+22:34:19 [main] INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+22:34:19 [main] INFO  tc.service2wraith:1.2 - Creating container for image: service2wraith:1.2
+22:34:20 [main] INFO  tc.service2wraith:1.2 - Container service2wraith:1.2 is starting: 97429589b6794341f61102796d8d3921758685c8f440237b7103c2f8b2310ac8
+22:34:20 [main] INFO  tc.service2wraith:1.2 - Container service2wraith:1.2 started in PT0.8882789S
+22:34:21 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://localhost:62937/
+22:34:21 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Connection success with http://localhost:62937/
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: newJson | Success | Size: 1001
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Report 1k enabled
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: collectReports | Service1 report successfully received
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: collectReports | Service2 report successfully received
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: select | Success
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: math | Success
+22:34:21 [main] INFO  p.service3.service3.service.Service3 - Method: basic | Success

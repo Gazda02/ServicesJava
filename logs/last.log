@@ -1,0 +1,29 @@
+11:32:13 [main] INFO  p.s.service1.Service1Application - Starting Service1Application using Java 17.0.11 with PID 26404 (C:\Users\Gazda Karol\Desktop\serwisy_java\service1\target\classes started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java)
+11:32:13 [main] INFO  p.s.service1.Service1Application - No active profile set, falling back to 1 default profile: "default"
+11:32:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5000 (http)
+11:32:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+11:32:14 [main] INFO  p.service1.service1.service.Service1 - Service started
+11:32:14 [Thread-1] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+11:32:14 [main] INFO  p.service1.service1.service.Service1 - Service started
+11:32:14 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+11:32:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5000 (http) with context path '/'
+11:32:14 [main] INFO  p.s.service1.Service1Application - Started Service1Application in 1.55 seconds (process running for 2.382)
+11:32:36 [main] INFO  p.s.service2.Service2Application - Starting Service2Application using Java 17.0.11 with PID 23236 (C:\Users\Gazda Karol\Desktop\serwisy_java\service2\target\classes started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java)
+11:32:36 [main] INFO  p.s.service2.Service2Application - No active profile set, falling back to 1 default profile: "default"
+11:32:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 5000 (http)
+11:32:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.2-5000"]
+11:32:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:32:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+11:32:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+11:32:37 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+11:32:37 [Thread-1] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+11:32:37 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+11:32:39 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+11:32:41 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+11:32:43 [main] INFO  p.s.s.s.s.parents.ServiceExtended - Service started | Home URL: http://127.0.0.1:5000/
+11:32:43 [Thread-2] INFO  p.s.s.s.s.r.ResourcesUsageReport - Start of making a resource usage report | Delay: 1 sec
+11:32:43 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 2 | Failed to connect to /127.0.0.1:5000
+11:32:45 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 1 | Failed to connect to /127.0.0.1:5000
+11:32:47 [main] ERROR p.s.s.s.s.parents.ServiceExtended - Connection error | Attempts left: 0 | Failed to connect to /127.0.0.1:5000
+11:32:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 5000 (http) with context path '/'
+11:32:49 [main] INFO  p.s.service2.Service2Application - Started Service2Application in 13.848 seconds (process running for 14.63)
