@@ -22,8 +22,9 @@ public class BackController {
 
         if (service3.newJsons(newRequest.get("size"))) {
             return new ResponseEntity<>("New jsons OK", HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("New jsons failed", HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity<>("New jsons failed", HttpStatus.BAD_REQUEST);
     }
 
     @GetMapping("/basic")
