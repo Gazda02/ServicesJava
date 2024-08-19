@@ -9,7 +9,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import org.springframework.web.reactive.function.client.WebClientResponseException;
 import pl.service3.service3.service.sources.ApiConf;
 import pl.service3.service3.service.sources.WrongStatusCode;
 import pl.service3.service3.service.sources.parents.ServiceExtended;
