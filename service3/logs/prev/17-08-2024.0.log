@@ -1,6 +1,0 @@
-18:17:27 [main] INFO  p.s.service3.Service3Application - Starting Service3Application using Java 17.0.11 with PID 17572 (C:\Users\Gazda Karol\Desktop\serwisy_java\service3\target\classes started by Gazda Karol in C:\Users\Gazda Karol\Desktop\serwisy_java\service3)
-18:17:27 [main] INFO  p.s.service3.Service3Application - No active profile set, falling back to 1 default profile: "default"
-18:17:28 [main] INFO  p.service3.service3.service.Service3 - Service start | home URL: http://127.0.0.2:5000/
-18:17:28 [main] INFO  p.service3.service3.service.Service3 - Service start | home URL: http://127.0.0.2:5000/
-18:17:28 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 5000 (http)
-18:17:28 [main] INFO  p.s.service3.Service3Application - Started Service3Application in 1.644 seconds (process running for 2.409)
