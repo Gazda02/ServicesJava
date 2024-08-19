@@ -12,6 +12,9 @@ import pl.service3.service3.service.sources.report.RequestStat;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Klasa rodzic dla serwisów nr. 2 oraz 3
+ */
 public class ServiceExtended extends ServiceBasic{
 
     //zewnetrze klasy pomocnicze
@@ -27,6 +30,32 @@ public class ServiceExtended extends ServiceBasic{
     protected String homeUrl = null;
     protected final int statusOK = HttpStatus.OK.value();
 
+    /**
+     * Ustawia wykorzystywane endpointy na podstawie wprowadzonego adresu głównego.
+     * Do nadpisania.
+     */
+    protected void setEndPoints() {}
+
+    /**
+     * Dokłada dodatkowy rekord do raportu serwisu na którym wykonywane są zapytania.
+     * @param responseTime czas odpowiedzi serwisu
+     */
+    protected void updateRequestsStats(double responseTime) {
+        requestsStats.put(numOfRequest, new RequestStat(numOfJsons, String.format("%.2f ms", responseTime)));
+    }
+
+    /**
+     * Ustawia endpointy oraz sprawdza połączenie z drugim serwisem.
+     */
+    protected void constructorSetter() {
+        log.info("Service started | Home URL: {}", homeUrl);
+        setEndPoints();
+        connectionCheck();
+    }
+
+    /**
+     * Sprawdza połączenie z serwisem na którym będą wykonywane zapytania.
+     */
     protected void connectionCheck() {
 
         if (homeUrl == null || homeUrl.isEmpty()) {
@@ -63,17 +92,4 @@ public class ServiceExtended extends ServiceBasic{
 
         } while (maxConnectionTrys > 0);
     }
-
-    protected void updateRequestsStats(double responseTime) {
-        requestsStats.put(numOfRequest, new RequestStat(numOfJsons, String.format("%.2f ms", responseTime)));
-    }
-
-    protected void constructorSetter() {
-        log.info("Service started | Home URL: {}", homeUrl);
-        setEndPoints();
-        connectionCheck();
-    }
-
-    protected void setEndPoints() {}
 }
-

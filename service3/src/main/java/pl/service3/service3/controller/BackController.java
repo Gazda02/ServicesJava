@@ -41,9 +41,7 @@ public class BackController {
     @PostMapping("/math")
     public Mono<String> math(@RequestBody HashMap<String, String> mathRequest) {
 
-        Mono<String> r = service3.math(mathRequest.get("text"));
-
-        return r;
+        return service3.math(mathRequest.get("text"));
     }
 
     @GetMapping("/data")

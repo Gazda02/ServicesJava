@@ -18,10 +18,10 @@ public class ServiceBasic {
      * @return obiekt zbierający informacje z zużyciu zasobów
      */
     protected ResourcesUsageReport setResourcesUsageReport() {
-        ResourcesUsageReport resources_usage = new ResourcesUsageReport();
+        ResourcesUsageReport resourcesUsage = new ResourcesUsageReport();
 
-        resources_usage.setDaemon(true);
+        resourcesUsage.setDaemon(true);
 
-        return resources_usage;
+        return resourcesUsage;
     }
 }

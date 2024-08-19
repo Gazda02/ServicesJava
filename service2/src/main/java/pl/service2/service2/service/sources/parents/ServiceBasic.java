@@ -3,16 +3,25 @@ package pl.service2.service2.service.sources.parents;
 import lombok.Getter;
 import pl.service2.service2.service.sources.report.ResourcesUsageReport;
 
+/**
+ * Klasa bazowa wszystkich serwisów
+ */
 @Getter
 public class ServiceBasic {
 
+    //osobny wątek zbierający inforamcje o zużyciu zasobów
     protected final ResourcesUsageReport resourcesUsageReport = setResourcesUsageReport();
 
-    private ResourcesUsageReport setResourcesUsageReport() {
-        ResourcesUsageReport resourcesUsageReport = new ResourcesUsageReport();
+    /**
+     * Ustawienie opcji wątku
+     *
+     * @return obiekt zbierający informacje z zużyciu zasobów
+     */
+    protected ResourcesUsageReport setResourcesUsageReport() {
+        ResourcesUsageReport resourcesUsage = new ResourcesUsageReport();
 
-        resourcesUsageReport.setDaemon(true);
+        resourcesUsage.setDaemon(true);
 
-        return resourcesUsageReport;
+        return resourcesUsage;
     }
 }

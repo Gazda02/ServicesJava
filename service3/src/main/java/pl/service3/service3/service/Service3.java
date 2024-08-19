@@ -40,16 +40,30 @@ public class Service3 extends ServiceExtended {
     private String reportUrl;
     private String bridgeUrl;
 
+    /**
+     * Konstruktor bazowy
+     */
     public Service3() {
         homeUrl = "http://172.20.1.2:5000/";
         constructorSetter();
     }
 
+    /**
+     * Konstruktor testowy
+     *
+     * @param homeUrl adres główny serwisu na którym będą wykonywane zapytania
+     */
     public Service3(String homeUrl) {
         this.homeUrl = homeUrl;
         constructorSetter();
     }
 
+    /**
+     * Wysyła zapytanie generujące nową liste jsonów o podanym rozmiarze
+     *
+     * @param size rozmiar zarządanej listy
+     * @return 'true' przy powodzeniu
+     */
     public boolean newJsons(int size) {
 
         Request newJsonsRequest = new Request.Builder().url(newJsonsUrl + size).build();
@@ -88,6 +102,11 @@ public class Service3 extends ServiceExtended {
         return isSuccess;
     }
 
+    /**
+     * Wysyła zapytanie o podstawowe wartości
+     *
+     * @return otrzymana odpowiedź
+     */
     public String basic() {
 
         StringBuilder logString = new StringBuilder().append("Method: basic | ");
@@ -129,6 +148,11 @@ public class Service3 extends ServiceExtended {
         return csvLikeResponse;
     }
 
+    /**
+     * Wysyła zapytanie o wybrane wartości
+     *
+     * @return otrzymana odpowiedź
+     */
     public String select(String[] selectedHeads) {
 
         StringBuilder logString = new StringBuilder().append("Method: select | ");
@@ -173,6 +197,11 @@ public class Service3 extends ServiceExtended {
         return csvLikeResponse;
     }
 
+    /**
+     * Wysyła zapytanie typu POST z działaniami matematycznymi na wartościach pól jsonów
+     *
+     * @return otrzymana odpowiedź
+     */
     public Mono<String> math(String expressions) {
 
         StringBuilder logString = new StringBuilder().append("Method: math | ");
@@ -189,26 +218,29 @@ public class Service3 extends ServiceExtended {
             return Mono.just(logString.toString());
         }
 
+        //przygotowanie wyrażeń
         expressions = expressions.replace(" ", "");
         String[] expressionsArray = expressions.split(",");
 
+        //stworzenie słownika/jsona z listą wyrażeń
         HashMap<String, String[]> expressionsJson = new HashMap<>();
         expressionsJson.put("expressions", expressionsArray);
 
+        //budowa zapytania
         WebClient webClient = ApiConf.webClientBuilder().build();
 
-        Mono<String> s = webClient
+        log.info(logString.append("Success").toString());
+
+        return webClient
                 .post()
                 .uri(mathUrl)
                 .bodyValue(expressionsJson)
                 .retrieve()
                 .bodyToMono(String.class);
-
-        log.info(logString.append("Success").toString());
-
-        return s;
     }
-
+    /**
+     * Pobiera raporty pozostałych serwisów (tylko gdy osiągnięto warunek)
+     */
     private void collectReports() {
 
         StringBuilder logString = new StringBuilder().append("Method: collectReports | ");
@@ -222,6 +254,7 @@ public class Service3 extends ServiceExtended {
         ServicePerformance service2Performance;
         ServicePerformance reportTmp;
 
+        //raport serwisu nr. 1
         try (Response response = serviceConnection.newCall(reportS1Request).execute()){
 
             if (response.code() == statusOK && response.body() != null) {
@@ -239,6 +272,7 @@ public class Service3 extends ServiceExtended {
             return;
         }
 
+        //report serwisu nr. 2
         logString = new StringBuilder().append("Method: collectReports | ");
 
         try (Response response = serviceConnection.newCall(reportS2Request).execute()) {
