@@ -1,0 +1,97 @@
+[
+  {
+    "_type": "Position",
+    "_id": 13785210,
+    "key": 81848678,
+    "name": "Dchbfrxwv",
+    "fullName": "Dchbfrxwv, Pydwxx",
+    "iata_airport_code": null,
+    "type": "location",
+    "country": "Pydwxx",
+    "geo_position": {
+      "latitude": -144.989497330727,
+      "longitude": 81.3144659272392
+    },
+    "location_id": 455811,
+    "inEurope": false,
+    "countryCode": "PY",
+    "coreCountry": true,
+    "distance": null
+  },
+  {
+    "_type": "Position",
+    "_id": 51668887,
+    "key": 28574480,
+    "name": "Ysdzyxv",
+    "fullName": "Ysdzyxv, Mrsspivd",
+    "iata_airport_code": null,
+    "type": "location",
+    "country": "Mrsspivd",
+    "geo_position": {
+      "latitude": -83.8508943481876,
+      "longitude": -69.3719772963255
+    },
+    "location_id": 778737,
+    "inEurope": false,
+    "countryCode": "MR",
+    "coreCountry": true,
+    "distance": null
+  },
+  {
+    "_type": "Position",
+    "_id": 77216198,
+    "key": 29154072,
+    "name": "Vokst",
+    "fullName": "Vokst, Mpbgkynnsy",
+    "iata_airport_code": null,
+    "type": "location",
+    "country": "Mpbgkynnsy",
+    "geo_position": {
+      "latitude": 74.7239301517674,
+      "longitude": -82.8588705131302
+    },
+    "location_id": 945330,
+    "inEurope": false,
+    "countryCode": "MP",
+    "coreCountry": false,
+    "distance": 3316
+  },
+  {
+    "_type": "Position",
+    "_id": 27740675,
+    "key": 50967442,
+    "name": "Werrkhwz",
+    "fullName": "Werrkhwz, Nalagnfqln",
+    "iata_airport_code": "WER",
+    "type": "location",
+    "country": "Nalagnfqln",
+    "geo_position": {
+      "latitude": -50.757897501247,
+      "longitude": 69.0058295377179
+    },
+    "location_id": 293366,
+    "inEurope": true,
+    "countryCode": "NA",
+    "coreCountry": false,
+    "distance": null
+  },
+  {
+    "_type": "Position",
+    "_id": 84355085,
+    "key": 41387019,
+    "name": "Uzwnyrnbg",
+    "fullName": "Uzwnyrnbg, Fqkduqz",
+    "iata_airport_code": null,
+    "type": "location",
+    "country": "Fqkduqz",
+    "geo_position": {
+      "latitude": 39.6575427978659,
+      "longitude": -42.84677424238
+    },
+    "location_id": 646449,
+    "inEurope": false,
+    "countryCode": "FQ",
+    "coreCountry": false,
+    "distance": 1372
+  }
+]
