@@ -34,6 +34,14 @@ Na stronie wybieramy intersującą nas opcje:
 
 Raporty dostępne są pod enpointem "/report". Wykres dla zużycia procesora oraz pamięci i tabelka dla czasu wykonania zapytań dla serwisów nr. 1 oraz nr. 2.
 
+>>> Testy
+
+Testy serwisów nr.2 i nr.3 są możliwe po stowrzeniu obrazów dla kontenerów testowych. Potrzebne pliki znajdują się w katalogach ServicesJava\TestContainers\Test4Service2 oraz ..\Test4Service3.
+Zalecane polecenia:
+
+- docker build . -t servis1wraith:1.0 (w folderze Test4Service2)
+- docker build . -t servis2wraith:1.2 (w folderze Test4Service3)
+
 >>> Technologie
 
 - Java 17 1.8.0_51
